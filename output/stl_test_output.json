@@ -1,0 +1,43 @@
+﻿{
+  "file_name": "Golf_Ball_holder_Clip.stl",
+  "file_type": "stl",
+  "file_size": 3773084,
+  "bounding_box": {
+    "min": [
+      -24.343135833740234,
+      -55.96054458618164,
+      -10.0
+    ],
+    "max": [
+      72.86189270019531,
+      9.960664749145508,
+      10.0
+    ]
+  },
+  "bounding_box_volume": 128157.46068864028,
+  "volume": 17633.162076574023,
+  "surface_area": 11929.427909962486,
+  "centroid": [
+    14.74033428414932,
+    -23.050417030649392,
+    0.0008781202222917288
+  ],
+  "triangle_count": 75460,
+  "face_count": 75460,
+  "edge_count": 113190,
+  "vertex_count": 37718,
+  "degenerate_faces": 2,
+  "non_manifold_edges": 0,
+  "watertight": true,
+  "connected_components": 1,
+  "euler_number": -12,
+  "triangle_density": 0.5888069223166863,
+  "average_edge_length": 0.7291811050055143,
+  "solid_count": null,
+  "shell_count": null,
+  "units": null,
+  "flags": [
+    "degenerate_geometry"
+  ],
+  "confidence_score": 0.8
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "Geometria_Physical.msh",
+  "file_type": ".msh",
+  "file_size": 11883,
+  "node_count": 142,
+  "element_count": 282,
+  "element_types": [
+    "line",
+    "triangle"
+  ],
+  "bounding_box": {
+    "x_min": 0.0,
+    "x_max": 1.0,
+    "y_min": 0.0,
+    "y_max": 1.0,
+    "z_min": 0.0,
+    "z_max": 0.0
+  },
+  "mesh_volume": null,
+  "surface_area": 0.9999999999999998,
+  "skewness": null,
+  "aspect_ratio": {
+    "min": -1.0,
+    "max": 1.528039361204481,
+    "mean": 0.8905146292283102,
+    "std": 0.775503156231038
+  },
+  "jacobian": {
+    "min": -1.0,
+    "max": -1.0,
+    "mean": -1.0,
+    "std": 0.0
+  },
+  "scaled_jacobian": {
+    "min": -1.0,
+    "max": 0.9709905476326438,
+    "mean": 0.5855163349604212,
+    "std": 0.6473375754657611
+  },
+  "min_quality": -1.0,
+  "max_quality": 1.528039361204481,
+  "mean_quality": 0.15867698806291047,
+  "std_quality": 1.0133708774328642,
+  "min_element_size": 0.0028737411021090946,
+  "max_element_size": 0.005483794296394576,
+  "average_element_size": 0.004132231404958678,
+  "average_edge_length": 0.09986372078765766,
+  "edge_length_std": 0.014391690801299968,
+  "connected_components": 1,
+  "region_count": 1,
+  "duplicate_nodes": 0,
+  "duplicate_elements": 0,
+  "isolated_nodes": 0,
+  "non_manifold_edges": 0,
+  "boundary_edges": 40,
+  "mesh_density": null,
+  "flags": [
+    "degenerate_elements"
+  ],
+  "confidence_score": 0.8
+}

@@ -1,0 +1,58 @@
+{
+  "file_name": "circle_2d.msh",
+  "file_type": ".msh",
+  "file_size": 1158,
+  "node_count": 25,
+  "element_count": 20,
+  "element_types": [
+    "quad"
+  ],
+  "bounding_box": {
+    "x_min": -1.0,
+    "x_max": 1.0,
+    "y_min": -1.0,
+    "y_max": 1.0,
+    "z_min": 0.0,
+    "z_max": 0.0
+  },
+  "mesh_volume": null,
+  "surface_area": 2.8284000000000002,
+  "skewness": null,
+  "aspect_ratio": {
+    "min": 1.0959998936977422,
+    "max": 1.955656979742663,
+    "mean": 1.6282668158535238,
+    "std": 0.3178620715098027
+  },
+  "jacobian": {
+    "min": 0.06896382999999999,
+    "max": 0.13712090999999998,
+    "mean": 0.097921722,
+    "std": 0.03204338595679138
+  },
+  "scaled_jacobian": {
+    "min": 0.819268703606236,
+    "max": 0.939553396325509,
+    "mean": 0.8719024559268446,
+    "std": 0.04652908006016244
+  },
+  "min_quality": 0.06896382999999999,
+  "max_quality": 1.955656979742663,
+  "mean_quality": 0.8660303312601226,
+  "std_quality": 0.6519861466555487,
+  "min_element_size": 0.08374851999999999,
+  "max_element_size": 0.18802499999999997,
+  "average_element_size": 0.14142000000000002,
+  "average_edge_length": 0.431499614220999,
+  "edge_length_std": 0.17870820101200538,
+  "connected_components": 1,
+  "region_count": 1,
+  "duplicate_nodes": 0,
+  "duplicate_elements": 0,
+  "isolated_nodes": 0,
+  "non_manifold_edges": 0,
+  "boundary_edges": 8,
+  "mesh_density": null,
+  "flags": [],
+  "confidence_score": 1.0
+}

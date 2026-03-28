@@ -1,0 +1,27 @@
+{
+  "circle_2d_mesh_validation.json": {
+    "cluster_id": -1,
+    "z_score_flag": false,
+    "anomaly_tags": [
+      "CLUSTER_NOISE_POINT"
+    ],
+    "risk_level": "MEDIUM"
+  },
+  "Geometria1_mesh_validation.json": {
+    "cluster_id": -1,
+    "z_score_flag": false,
+    "anomaly_tags": [
+      "PREVIOUS_VALIDATION_FLAGS",
+      "CLUSTER_NOISE_POINT"
+    ],
+    "risk_level": "MEDIUM"
+  },
+  "Geometria_Physical_mesh_validation.json": {
+    "cluster_id": -1,
+    "z_score_flag": false,
+    "anomaly_tags": [
+      "CLUSTER_NOISE_POINT"
+    ],
+    "risk_level": "MEDIUM"
+  }
+}

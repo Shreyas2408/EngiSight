@@ -1,0 +1,334 @@
+# Engineering Analysis Report
+
+## Summary
+- CAD files processed: 8
+- Mesh files processed: 0
+- Solver files processed: 0
+
+## CAD Analysis
+### muffler_01.STEP
+```json
+{
+  "file_name": "muffler_01.STEP",
+  "file_type": ".STEP",
+  "file_size": 44346023,
+  "solid_count": 0,
+  "part_or_assembly": "assembly",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -452.56783476900006,
+    "ymin": -200.0000001,
+    "zmin": -961.596928585,
+    "xmax": 156.8600001,
+    "ymax": 200.0000001,
+    "zmax": 481.1045173520001
+  },
+  "dimensions": {
+    "L": 609.4278348690001,
+    "W": 400.0000002,
+    "H": 1442.701445937
+  },
+  "volume": 860797.3668091381,
+  "centroid": {
+    "x": 49.272246337166855,
+    "y": 0.6754742466796211,
+    "z": 417.88894987447713
+  },
+  "surface_area": 2407986.1377642225,
+  "face_count": 2429,
+  "edge_count": 13158,
+  "vertex_count": 26316,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF10.STEP
+```json
+{
+  "file_name": "Shaft support SHF10.STEP",
+  "file_type": ".STEP",
+  "file_size": 249245,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -21.50021861826774,
+    "ymin": -10.82414062119168,
+    "zmin": -0.30918936936421854,
+    "xmax": 21.50021861826774,
+    "ymax": 14.30918936936422,
+    "zmax": 10.000218770596637
+  },
+  "dimensions": {
+    "L": 43.00043723653548,
+    "W": 25.1333299905559,
+    "H": 10.309408139960857
+  },
+  "volume": 3437.780045398889,
+  "centroid": {
+    "x": -0.14240871227266524,
+    "y": 0.10268930458585088,
+    "z": 4.143138557272911
+  },
+  "surface_area": 2385.654065528202,
+  "face_count": 101,
+  "edge_count": 478,
+  "vertex_count": 956,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF16.STEP
+```json
+{
+  "file_name": "Shaft support SHF16.STEP",
+  "file_type": ".STEP",
+  "file_size": 260765,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -25.000012530820506,
+    "ymin": -15.15350333491402,
+    "zmin": -0.30898328191698354,
+    "xmax": 25.000012530820506,
+    "ymax": 17.308983281916984,
+    "zmax": 16.00001265429836
+  },
+  "dimensions": {
+    "L": 50.00002506164101,
+    "W": 32.462486616831,
+    "H": 16.308995936215343
+  },
+  "volume": 8847.283995668377,
+  "centroid": {
+    "x": -0.09541103934461356,
+    "y": -0.03312961206887844,
+    "z": 6.873077730911136
+  },
+  "surface_area": 4458.499905658316,
+  "face_count": 105,
+  "edge_count": 501,
+  "vertex_count": 1002,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF20.STEP
+```json
+{
+  "file_name": "Shaft support SHF20.STEP",
+  "file_type": ".STEP",
+  "file_size": 256749,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -30.000336531809634,
+    "ymin": -18.40100393678033,
+    "zmin": -0.3711014331254054,
+    "xmax": 30.000336531809634,
+    "ymax": 20.371101433125403,
+    "zmax": 20.000336636161272
+  },
+  "dimensions": {
+    "L": 60.00067306361927,
+    "W": 38.77210536990573,
+    "H": 20.37143806928668
+  },
+  "volume": 14588.10315108067,
+  "centroid": {
+    "x": -0.13413176335118782,
+    "y": -0.10830761209264009,
+    "z": 8.719658908840367
+  },
+  "surface_area": 6433.69557423323,
+  "face_count": 103,
+  "edge_count": 488,
+  "vertex_count": 976,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF25.STEP
+```json
+{
+  "file_name": "Shaft support SHF25.STEP",
+  "file_type": ".STEP",
+  "file_size": 284786,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -35.0004102355009,
+    "ymin": -21.64825424134878,
+    "zmin": -0.37117513681667486,
+    "xmax": 35.0004102355009,
+    "ymax": 22.371175136816678,
+    "zmax": 25.000410322143395
+  },
+  "dimensions": {
+    "L": 70.0008204710018,
+    "W": 44.019429378165455,
+    "H": 25.37158545896007
+  },
+  "volume": 24145.93109659953,
+  "centroid": {
+    "x": -0.12383891175179744,
+    "y": -0.22904627279317386,
+    "z": 10.78103070627312
+  },
+  "surface_area": 9194.46639393963,
+  "face_count": 105,
+  "edge_count": 520,
+  "vertex_count": 1040,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF30.STEP
+```json
+{
+  "file_name": "Shaft support SHF30.STEP",
+  "file_type": ".STEP",
+  "file_size": 258836,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -40.0000001,
+    "ymin": -24.895020706725063,
+    "zmin": -0.432559151535069,
+    "xmax": 40.0000001,
+    "ymax": 27.432559151535077,
+    "zmax": 30.000000182329675
+  },
+  "dimensions": {
+    "L": 80.0000002,
+    "W": 52.32757985826014,
+    "H": 30.432559333864745
+  },
+  "volume": 37127.16698287354,
+  "centroid": {
+    "x": -0.06227038602861387,
+    "y": 0.16439933035491688,
+    "z": 12.79667925572759
+  },
+  "surface_area": 12731.593208598246,
+  "face_count": 105,
+  "edge_count": 495,
+  "vertex_count": 990,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF40.STEP
+```json
+{
+  "file_name": "Shaft support SHF40.STEP",
+  "file_type": ".STEP",
+  "file_size": 207215,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -51.000401109427585,
+    "ymin": -30.307382717614612,
+    "zmin": -0.6801367618398315,
+    "xmax": 51.000401109427585,
+    "ymax": 39.68013676183984,
+    "zmax": 40.000401109427585
+  },
+  "dimensions": {
+    "L": 102.00080221885517,
+    "W": 69.98751947945445,
+    "H": 40.68053787126742
+  },
+  "volume": 71321.27322200369,
+  "centroid": {
+    "x": -0.10833740464394599,
+    "y": 1.7586573751134196,
+    "z": 16.013322674123184
+  },
+  "surface_area": 21859.30737397519,
+  "face_count": 89,
+  "edge_count": 410,
+  "vertex_count": 820,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+### Shaft support SHF50.STEP
+```json
+{
+  "file_name": "Shaft support SHF50.STEP",
+  "file_type": ".STEP",
+  "file_size": 215990,
+  "solid_count": 1,
+  "part_or_assembly": "part",
+  "multi_body": false,
+  "bounding_box": {
+    "xmin": -61.00000234357894,
+    "ymin": -37.88372935381274,
+    "zmin": -0.7621301962835874,
+    "xmax": 61.00000234357894,
+    "ymax": 48.76213019628359,
+    "zmax": 50.00000234357894
+  },
+  "dimensions": {
+    "L": 122.00000468715788,
+    "W": 86.64585955009633,
+    "H": 50.76213253986253
+  },
+  "volume": 132673.43833906684,
+  "centroid": {
+    "x": -0.14552251088032453,
+    "y": 1.8636160691375012,
+    "z": 20.36838126412795
+  },
+  "surface_area": 33266.01166851342,
+  "face_count": 90,
+  "edge_count": 412,
+  "vertex_count": 824,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "flags": [],
+  "confidence_score": 1.0
+}
+```
+
+## Observations
+- No issues detected in any processed files.
+
+## Confidence Summary
+| File | Type | Score | Flags |
+|---|---|---|---|
+| muffler_01.STEP | CAD | 1.0 | none |
+| Shaft support SHF10.STEP | CAD | 1.0 | none |
+| Shaft support SHF16.STEP | CAD | 1.0 | none |
+| Shaft support SHF20.STEP | CAD | 1.0 | none |
+| Shaft support SHF25.STEP | CAD | 1.0 | none |
+| Shaft support SHF30.STEP | CAD | 1.0 | none |
+| Shaft support SHF40.STEP | CAD | 1.0 | none |
+| Shaft support SHF50.STEP | CAD | 1.0 | none |

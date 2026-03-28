@@ -1,0 +1,22 @@
+{
+  "file": "mesh_files/circle_2d.msh",
+  "read_success": true,
+  "mesh_metrics": {
+    "node_count": 25,
+    "element_count": 20,
+    "element_types": [
+      "quad"
+    ],
+    "elements_per_node_ratio": 0.8,
+    "file_size_bytes": 1158
+  },
+  "solver_metrics": {
+    "warning_count": 0,
+    "error_count": 0,
+    "iteration_lines": 0,
+    "runtime_detected": false,
+    "residual_trend": "NOT_AVAILABLE"
+  },
+  "flags": [],
+  "confidence": "HIGH"
+}

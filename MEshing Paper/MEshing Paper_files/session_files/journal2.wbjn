@@ -1,0 +1,9 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.172")
+system1 = GetSystem(Name="SYS 4")
+system1.Copy(KeepConnections=True)
+system2 = GetSystem(Name="SYS 5")
+setup1 = system2.GetContainer(ComponentName="Setup")
+setup1.Edit()
+Save(Overwrite=True)

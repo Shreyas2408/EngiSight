@@ -1,0 +1,16 @@
+/COM,ANSYS RELEASE 2025 R2.04        BUILD 25.2      UP20251105       22:15:03
+
+ *** WARNING ***                         CP =       1.672   TIME= 22:15:06
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       2.234   TIME= 22:15:06
+ Material number 3 (used by element 39334) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       2.250   TIME= 22:15:06
+ It has been detected that you are using reduced integration brick       
+ elements along with the PCG solver (EQSLV,PCG).  Please verify that     
+ you have multiple elements through the thickness in your model or       
+ switch to the SPARSE solver (EQSLV,SPARSE).                             

@@ -1,0 +1,19 @@
+{
+  "Golf_Ball_holder_Clip.json": {
+    "cluster_id": -1,
+    "z_score_flag": false,
+    "anomaly_tags": [
+      "DEGENERATE_GEOMETRY_PRESENT",
+      "CLUSTER_NOISE_POINT"
+    ],
+    "risk_level": "MEDIUM"
+  },
+  "mobile_controller_stlp.json": {
+    "cluster_id": -1,
+    "z_score_flag": false,
+    "anomaly_tags": [
+      "CLUSTER_NOISE_POINT"
+    ],
+    "risk_level": "MEDIUM"
+  }
+}

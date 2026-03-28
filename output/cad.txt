@@ -1,0 +1,10 @@
+{
+  "file_name": "actuating_lever.STEP",
+  "file_type": "step",
+  "file_size": 115121,
+  "error": "pythonocc-core not installed",
+  "flags": [
+    "read_failure"
+  ],
+  "confidence_score": 0.0
+}

@@ -1,0 +1,60 @@
+# CAD Analysis Engine — Walkthrough
+
+## What Was Built
+
+[cad_analysis_engine.py](file:///c:/Users/Shreyas Durge/Downloads/bar-subjected-to-axial-loads-1.snapshot.1/cad_analysis_engine.py) — a single ~370-line Python script implementing the full pipeline:
+
+| Component | Details |
+|-----------|---------|
+| **STL loader** | `trimesh` — extracts all 18+ metrics including degenerate faces, non-manifold edges, watertight, euler number, etc. |
+| **STEP/IGES loader** | `pythonocc-core` (OCP or OCC.Core) — face/edge/vertex/solid/shell counts, exact volume, surface area, tessellated triangles, STEP units |
+| **Edge selection** | Direction-based filtering (±Z, ±X) using BRepAdaptor_Curve tangent at midpoint |
+| **Modifications** | Fillet (r=1.0) on Z-aligned edges, Chamfer (d=0.5) on X-aligned edges |
+| **Validation** | 6 flag types: `read_failure`, `degenerate_geometry`, `non_manifold_geometry`, `not_watertight`, `missing_metrics`, `invalid_topology` |
+| **Confidence scoring** | Starts at 1.0, penalty per flag, clamped [0, 1] |
+| **Graceful degradation** | STEP/IGES paths return `read_failure` when pythonocc-core is unavailable |
+
+## Test Results
+
+### STL — [Golf_Ball_holder_Clip.stl](file:///c:/Users/Shreyas%20Durge/Downloads/bar-subjected-to-axial-loads-1.snapshot.1/stl-2nd-file/Golf_Ball_holder_Clip.stl) ✅
+
+```json
+{
+  "file_name": "Golf_Ball_holder_Clip.stl",
+  "file_size": 3773084,
+  "volume": 17633.16,
+  "surface_area": 11929.43,
+  "triangle_count": 75460,
+  "degenerate_faces": 2,
+  "watertight": true,
+  "flags": ["degenerate_geometry"],
+  "confidence_score": 0.8
+}
+```
+
+### STL — `Y-PAD_lower iP15pro.stl` ✅
+
+```json
+{
+  "file_name": "Y-PAD_lower iP15pro.stl",
+  "file_size": 1701584,
+  "volume": 127302.01,
+  "surface_area": 30636.74,
+  "triangle_count": 34030,
+  "degenerate_faces": 0,
+  "watertight": false,
+  "flags": ["not_watertight"],
+  "confidence_score": 0.9
+}
+```
+
+### STEP / IGES — graceful fallback ✅
+
+pythonocc-core is not installed in this environment, so both correctly return:
+```json
+{ "flags": ["read_failure"], "confidence_score": 0.0 }
+```
+
+> [!NOTE]
+> To enable full STEP/IGES processing, install pythonocc-core:
+> `conda install -c conda-forge pythonocc-core`

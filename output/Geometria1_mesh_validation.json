@@ -1,0 +1,26 @@
+{
+  "file": "mesh_files/Geometria1.msh",
+  "read_success": true,
+  "mesh_metrics": {
+    "node_count": 5,
+    "element_count": 12,
+    "element_types": [
+      "triangle",
+      "vertex",
+      "line"
+    ],
+    "elements_per_node_ratio": 2.4,
+    "file_size_bytes": 299
+  },
+  "solver_metrics": {
+    "warning_count": 0,
+    "error_count": 0,
+    "iteration_lines": 0,
+    "runtime_detected": false,
+    "residual_trend": "NOT_AVAILABLE"
+  },
+  "flags": [
+    "INVALID_ELEMENTS"
+  ],
+  "confidence": "MEDIUM"
+}

@@ -1,0 +1,43 @@
+﻿{
+  "file_name": "Y-PAD_lower iP15pro.stl",
+  "file_type": "stl",
+  "file_size": 1701584,
+  "bounding_box": {
+    "min": [
+      -73.58899688720703,
+      -28.78046989440918,
+      -29.188785552978516
+    ],
+    "max": [
+      102.88899230957031,
+      21.973777770996094,
+      44.774173736572266
+    ]
+  },
+  "bounding_box_volume": 662486.7863438248,
+  "volume": 127302.00959053502,
+  "surface_area": 30636.740650375017,
+  "centroid": [
+    15.398523827057142,
+    -0.03009422453917051,
+    2.0665366386571655
+  ],
+  "triangle_count": 34030,
+  "face_count": 34030,
+  "edge_count": 51110,
+  "vertex_count": 17062,
+  "degenerate_faces": 0,
+  "non_manifold_edges": 0,
+  "watertight": false,
+  "connected_components": 1,
+  "euler_number": -18,
+  "triangle_density": 0.05136706225916894,
+  "average_edge_length": 1.8465439049164158,
+  "solid_count": null,
+  "shell_count": null,
+  "units": null,
+  "flags": [
+    "not_watertight"
+  ],
+  "confidence_score": 0.9
+}
